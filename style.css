@@ -1,0 +1,718 @@
+.header
+{
+    position: absolute;
+    left:0;
+    margin: 0;
+    top:0;
+    background-color: royalblue;
+    width: 100%;
+    height: 50px;
+    margin-left: 0;
+    
+}
+.youtube
+{
+    position: absolute;
+    top: 10px;
+    left: 120px;
+    margin-left:80px;
+
+}
+.facebook
+{
+    position: absolute;
+    top: 10px;
+    left: 120px;
+}
+
+.instagram
+{
+    margin-left:40px;
+    position: absolute;
+    top: 10px;
+    left: 120px;
+
+}
+.instagram:hover
+{
+    opacity: 0.7;
+}
+.twitter:hover
+{
+    opacity: 0.7;
+}
+.facebook:hover
+{
+    opacity: 0.7;
+}
+.whatsapp:hover
+{
+    opacity: 0.7;
+}
+.youtube:hover
+{
+    opacity: 0.7;
+}
+.twitter
+{
+    position: absolute;
+    top:8px;
+    left: 120px;
+    margin-left: 110px;
+}
+.whatsapp
+{
+    position: absolute;
+    top:10px;
+    left:120px;   
+    margin-left: 160px;
+}
+h2
+{
+    font-weight:normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: -70px;
+    padding-top: 1px;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    min-width: 100%;
+}
+.header-buttons
+{
+    position:absolute;
+    top: 10px;
+    right: 100px;
+}
+button
+{
+    padding: 5px;
+    color: green;
+    border: 1 px solid grey;
+}
+.navigation-block
+{
+    position: absolute;
+    width: 100%;
+    margin-left: 0;
+    margin:42px;
+    background-color:#EEF5F1; 
+    height:80px;
+    left:-50;
+    padding-right: 20px;
+}
+.sylani
+{
+    position: absolute;
+    left:120;
+    top:15
+}
+.navigation-bar
+{
+    padding-left: 500px;
+}
+ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+ul li
+{
+    float:left;
+    margin-top: 20px;
+}
+ul li a
+{
+
+    display:block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+}
+a:hover
+{
+   color: white;
+   background-color: royalblue;
+   border-radius: 25px;
+   transition: .5s;
+
+}
+.dropdown a:hover
+{
+   color:white;
+   background-color: royalblue;
+   border-radius: 5px;
+   transition: .5s;
+}
+ul li ul
+{
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    border-radius: 25px;
+    transition: .5s;
+    
+}
+ul li ul li
+{
+    float:none;
+}
+
+ul li ul
+{
+    display: none;
+    
+}
+ul li:hover ul
+{
+    display: block;
+    
+}
+.dropdown ul li:hover ul
+{
+    display: block;
+    
+}
+.active
+{
+    background-color: royalblue;
+    color: white;
+    border-radius: 25px;
+}
+.bloodbank
+{
+    z-index: -1;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 128;
+    left: 0;
+    width: 100%;
+    height:450px;
+    
+}
+.blue
+{
+    width: 60%;
+    background-color: royalblue;
+    height: 40px;          
+    margin:550px auto;
+    color: white;
+    text-align:center;
+}
+.intro-container
+{
+    top:650;
+    position: absolute;
+    display: block;
+    margin:0;
+    padding:0;
+    left:0;
+   background-color:#EEF5F1;
+    width:100%;
+    height:100%;
+    min-height: 100%;
+    min-width: 100%;
+}
+.blue-half
+{
+color: royalblue;
+}
+.green-half
+{
+    color: seagreen;
+}
+.heading-intro
+{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top:55px;
+    font-size: 35px;
+}
+.intro-logo
+{
+    margin-top: -30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.introduction p
+{
+   text-align: justify;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    word-spacing: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
+    color: grey;
+}
+.statistics
+{
+margin-top: 1%;
+background-color:#1F5EE7;
+width: 100%;
+height:250px;
+}
+
+table
+{
+    padding-top: 45px;
+    margin: 0 auto;
+    border-spacing: 50px 10px;
+    text-align: center;
+}
+.monthly-green
+{
+    color:#1DEE4A;
+}
+.numbers
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+.letters
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.services
+{
+    margin-top: -39px;
+    width: 100%;
+    height: 100%;
+    background-color: #EEF5F1;
+}
+.services-heading
+{
+    padding-top: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 35px;   
+}
+.services-logo
+{
+    margin-top: -30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first-row
+{
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10px;
+}
+.second-row
+{
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10px;
+}
+.sadqah-box
+{
+    margin-left: 70px;
+    display: inline-block;
+    width: 25%;
+    height: 170px;
+    background-color:white;
+    border: 2px ;
+    box-shadow:0 15px 10px #777;
+    
+}
+.welfare-box
+{
+    display:inline-block;
+    width: 25%;
+    background-color: white;
+    border: 2px orange;
+    margin-left: 90px;
+    height: 170px;
+    box-shadow:0 15px 10px #777;
+}
+.medical-box
+{
+    display:inline-block;
+    width:25%;
+    background-color: white;
+    border: 2px orange;
+    margin-left:90px;
+    height: 170px;
+    box-shadow:0 15px 10px #777;
+}
+.dastarkhwan-box
+{
+    margin-left: 70px;
+   display: inline-block;
+    width: 25%;
+    height: 170px;
+    background-color:white;
+    border: 2px ;
+    box-shadow:0 15px 10px #777;
+
+}
+.roplant-box
+{
+    display:inline-block;
+    width: 25%;
+    background-color: white;
+    border: 2px orange;
+    margin-left: 90px;
+    height: 170px;
+    box-shadow:0 15px 10px #777;
+}
+.education-box
+{
+    display:inline-block;
+    width: 25%;
+    background-color: white;
+    border: 2px orange;
+    margin-left: 90px;
+    height: 170px;
+    box-shadow:0 15px 10px #777;
+}
+.sadqah-box img
+{
+    position: absolute;
+    left:200px;
+    display: block;
+    margin-top: 25px;
+    
+}
+.sadqah-box h1
+{
+    position: absolute;
+    color: royalblue;
+    margin-top: 100px;
+    margin-left:85px;
+}
+.welfare-box img
+{
+   position: absolute;
+   display: block;
+   margin-left: 140px;
+   margin-top: 30px;
+    
+}
+.welfare-box h1
+{
+ position: absolute;
+ display: block;  
+ color: royalblue;
+ margin-top: 100px;
+ margin-left:130px; 
+}
+.medical-box img
+{
+    position: absolute;
+    display: block;
+    margin-left: 140px;
+    margin-top: 30px;    
+}
+.medical-box h1
+{
+position: absolute;
+ display: block;  
+ color: royalblue;
+ margin-top: 100px;
+ margin-left:130px; 
+}
+.dastarkhwan-box img
+{
+    margin-left: 120px;
+    position: absolute;
+    margin-top: 20px;
+}
+.dastarkhwan-box h1
+{
+    position: absolute;
+    color: royalblue;
+    margin-left: 85px;
+    margin-top:90px;
+}
+.roplant-box img
+{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.roplant-box h1
+{
+    position: absolute;
+    color: royalblue;
+    margin-left:115px;
+    margin-top: 90px;
+}
+.education-box img
+{
+    position: absolute;
+    margin-left: 130px;
+    margin-top:20px;
+
+}
+.education-box h1
+{
+    position: absolute;
+    color: royalblue;
+    margin-top: 90px;
+    margin-left: 110px;
+}
+.missions
+{
+    margin-top: 20px;
+    width: 100%;
+    height: 800px;
+    background-color:white;
+}
+.projects h1
+{
+    color: royalblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-top: 80px;
+    padding-left: 110px;
+}
+.row-1,.row-2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: royalblue;
+}
+.hepatitis-box
+{
+    display: inline-block;
+    background-color:#EEF5F1;
+    width: 27%;
+    height: 70px;
+    margin-left: 110px;
+}
+.housing-box
+{
+    display: inline-block;
+    background-color:#EEF5F1;
+    width: 27%;
+    height: 70px;
+    margin-left: 30px;
+}
+.it-box
+{
+    display: inline-block;
+    background: #EEF5F1;
+    width: 27%;
+    height:70px;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+.tharparkar-box
+{
+    display: inline-block;
+    background: #EEF5F1;
+    width: 27%;
+    height: 70px;
+    margin-left:30px;
+}
+.hepatitis-box img
+{
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.hepatitis-box h4
+{
+    display: block;
+    position: absolute;
+    padding-left: 80px;
+
+}
+.housing-box img
+{
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.housing-box h4
+{
+    display: block;
+    position: absolute;
+    padding-left: 80px;
+}
+.it-box img
+{
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.it-box h4
+{
+    display: block;
+    position: absolute;
+    padding-left: 80px;
+}
+.tharparkar-box img
+{
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.tharparkar-box h4
+{
+    display: block;
+    position: absolute;
+    padding-left: 80px;
+}
+.events
+{
+    margin-top: -200px;
+    margin-right: 50px;
+    position: relative;
+    width: 30%;
+    height: 300px;
+    float:right;
+}
+.projects h3
+{
+    padding-right: 150px;
+    margin-top: -55px;
+    text-align: right;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: royalblue;
+}
+.events p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    width: 70%;
+    text-align: center;
+    word-spacing: 4px;
+    padding-left: 45px;
+}
+.gallery
+{
+    margin-top: 15%;
+    width: 100%;
+    height: 370px;
+    background-color:white;
+    
+}
+#gallery-heading
+{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 35px;
+   text-align: center;
+   
+}
+.gallery-logo
+{
+    margin-top:-100px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+.gallery-imgae
+{
+    width: 95%;
+}
+table
+{
+  border-spacing: 1px 1px;
+}
+.footer
+{
+    width: 100%;
+    height: 400px;
+    background-color:#2C3031;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#97A1A4;
+}
+.footer p
+{
+   padding-left: 120px;
+  
+}
+.address
+{
+    padding-top: 90px;
+}
+.fa
+{
+    padding-right: 5px;
+}
+.fa-phone
+{
+    color:green;
+}
+ol
+{
+    margin-left: 85px;
+    list-style-type: none;
+}
+li
+{
+    line-height: 35px;
+}
+.far
+{
+    padding-right:5px
+}
+.fa-envelope
+{
+    color:green;
+}
+.fa-globe-americas
+{
+    color:green;
+}
+#extra
+{
+    display:inline-block;
+    margin-left:20px;
+}
+.head1
+{
+    position: relative;
+   top:16%;
+}
+.head1 h2
+{
+    font-weight:bold;
+}
+.foot-icons
+{
+    width:100%;
+    height:200px;
+}
+.connect-section
+{
+    position: relative;
+    float:right;
+    margin-top:-22%;
+    margin-right:15%;
+}
+.connect-icons
+{
+    display:flex;
+    flex-direction:row;
+    align-items:justify;
+}
+.end-footer
+{
+    margin-top:-20px;
+    background-color: royalblue;
+    width:100%;
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.end-footer p
+{
+    padding-left: 100px;
+}
