@@ -1,0 +1,162 @@
+html,body
+{
+  
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
+
+}
+.container-fluid
+{
+    background-color: #F5F81E;
+    text-align: center;
+}
+.container-fluid h2
+{
+    color: #082C7A;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.nav-custom
+{
+    background-color: #0E41B0;
+}
+.nav-link
+{
+    color: white;
+}
+.nav-link:hover
+{
+    color: #E5E8F0;
+}
+.navbutton-custom:focus
+{
+    border-color: white;
+    outline-color: white;
+}
+.search-button
+{
+    background-color:#F5F81E;
+    color: black;
+}
+.search-button:hover
+{
+    background-color: #F9E85C;
+}
+.log-button
+{
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color:#F5F81E;
+    position: absolute;
+    right: 500px;
+}
+.log-button:hover
+{
+
+    background-color:#F9E85C;
+}
+.sign-button
+{
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color:#F5F81E;
+   position: absolute;
+   right: 305px;
+}
+.sign-button:hover
+{
+
+    background-color:#F9E85C;
+}
+.auth-icon
+{
+    position: relative;
+    left: -7px;
+
+}
+.search-icon
+{
+    position: relative;
+    left: -5px;
+}
+#product-heading
+{
+    text-align: center;
+}
+
+.card-deck {
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .card {
+  
+      float: none;
+      width: 100%;
+      height:100%;
+      padding: .75rem;
+      margin: 0 auto;
+      border: 1 px solid;
+      border-radius: 15px;
+  }
+  
+
+  .card-text {
+      font-size: 85%;
+  }
+
+ .sign-up-social
+ {
+     color: #F6F81E;
+ }
+ .sign-up-social:hover
+ {
+     color: #F9FA6D;
+ }
+
+ .terms
+ {
+     font-weight: bold;
+     color: #F5F81E;
+ }
+ .btn-info
+ {
+     color: black;
+     background: #F5F81E;
+ }
+ .btn-info:hover, .btn-info:active, .btn-info:focus {
+    color: black !important;
+    background-color: #DBDD00 !important;
+    border-color:  #DBDD00 !important;
+    outline-color: none !important;
+  }
+ .terms:hover
+ {
+     color: #DBDD00;
+ }
+ .button-link
+ {
+     text-decoration: none;
+ }
+ .price-tag
+ {
+     color: gray;
+ }
+  /* media queries */
+
+  @media (max-width:767px){
+    .card-deck {
+      display:block;
+    }
+  }
+
+
+
+
+
+
+
+
+

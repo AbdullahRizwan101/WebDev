@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap4/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="bootstrap4/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+  </head>
+  <body>
+     <!-- Header -->
+     <div class="container-fluid">
+        <h2>E-Store</h2>
+    </div>      
+    <!-- Navbar Fixed -->
+<nav class="navbar sticky-top navbar-expand-lg nav-custom">
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+    <button class="navbar-toggler d-lg-none navbutton-custom" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="laptop.html">Laptop</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gpu.html">Graphic Card</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="consoles.html">Console</a>
+            </li>
+          
+
+            <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-cart-plus"></i></a>
+
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
+
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search the entire store">
+            <button class="btn search-button my-2 my-sm-0" type="submit"><i class="fas fa-search search-icon"></i>Search</button>
+            <a href="login.html" class="btn search-button ml-2"> <i class="fas fa-sign-in-alt auth-icon"></i>Login</a>
+        </form>
+    </div>
+</nav>   
+    <!-- sign up form -->
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+<form class="text-center p-5" action="#!">
+
+    <p class="h4 mb-4">Sign up</p>
+
+    <div class="form-row mb-4">
+        <div class="col">
+            <!-- First name -->
+            <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name">
+        </div>
+        <div class="col">
+            <!-- Last name -->
+            <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
+        </div>
+    </div>
+
+    <!-- E-mail -->
+    <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+    <!-- Password -->
+    <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+    <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+        At least 8 characters and 1 digit
+    </small>
+
+    <!-- Phone number -->
+    <input type="text" id="defaultRegisterPhonePassword" class="form-control" placeholder="Phone number" aria-describedby="defaultRegisterFormPhoneHelpBlock">
+    <small id="defaultRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
+        Optional - for two step authentication
+    </small>
+
+    <!-- Newsletter -->
+    <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="defaultRegisterFormNewsletter">
+        <label class="custom-control-label" for="defaultRegisterFormNewsletter">Subscribe to our newsletter</label>
+    </div>
+
+    <!-- Sign up button -->
+    <button class="btn btn-info my-4 btn-block" type="submit">Sign in</button>
+
+    <!-- Social register -->
+    <p>or sign up with:</p>
+
+    <a href="#" class="mx-2 sign-up-social" role="button"><i class="fab fa-facebook-f "></i></a>
+    <a href="#" class="mx-2 sign-up-social" role="button"><i class="fab fa-twitter "></i></a>
+
+
+    <hr>
+
+    <!-- Terms of service -->
+    <p>By clicking
+        <em>Sign up</em> you agree to our
+        <a href="" target="_blank" class="terms">terms of service</a>
+</form>
+</div>
+</div>
+  </body>
+</html>
