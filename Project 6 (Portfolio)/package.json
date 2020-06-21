@@ -1,0 +1,17 @@
+{
+  "name": "responsive_portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://AbdullahRizwan101.github.io/WebSites",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy":"gh-pages -d dist"
+  },
+  "author": "Abdullah Rizwan",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.2.0",
+    "node-sass": "^4.14.1"
+  }
+}
